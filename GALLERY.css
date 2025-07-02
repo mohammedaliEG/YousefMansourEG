@@ -1,0 +1,204 @@
+.Gallery {
+  width: 1440px;
+  height: 2650px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+.BackgroundGallery {
+  width: 1440px;
+  height: 2500px;
+  left: 0px;
+  top: 150px;
+  position: absolute;
+}
+
+.SocialIcons {
+  left: 592px;
+  top: 2501px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 21px;
+  display: inline-flex;
+}
+
+.SocialIconsFacebookWhite,
+.SocialIconsInstagramWhite,
+.SocialIconsYoutubeWhite,
+.SocialIconsXWhite {
+  width: 48px;
+  height: 49px;
+}
+
+.LogoYousefMansourInfo {
+  width: 332px;
+  height: 247px;
+  left: 545px;
+  top: 2225px;
+  position: absolute;
+}
+
+.OfficialWebsiteYousefMansor,
+.YousefMansoreg {
+  width: 385px;
+  height: 44px;
+  left: 527px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #9E7A06;
+  font-size: 20px;
+  font-family: Papyrus;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.OfficialWebsiteYousefMansor { top: 2450px; }
+.YousefMansoreg { top: 2181px; }
+
+.OlympicVillageMaadiBackground,
+.ElZuhurClubBackground,
+.CairoInternationalStadiumOpenKickboxingChampionshipBackground,
+.SylvesterStalloneBackground,
+.MemoriesBackground,
+.BaderBackground,
+.MekanikaBackground,
+.ElRagolElSharesBackground,
+.GatElSahrahBackground,
+.SouqAlhalawaBackground,
+.GahimEmraahBackground,
+.BaldozarBackgrond,
+.ElSharesBackground,
+.QabdetAlhilaliBackground,
+.AleajuzWAlbaltajyBackground {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(58.01, 51.68, 30.90, 0.50) 0%, rgba(58.01, 51.68, 30.90, 0.50) 100%);
+  box-shadow: 0px 4px 4px #3A341F;
+  border-radius: 25px;
+}
+
+.OlympicVillageMaadiBackground { left: 944px; top: 1740px; }
+.ElZuhurClubBackground { left: 520px; top: 1740px; }
+.CairoInternationalStadiumOpenKickboxingChampionshipBackground { left: 96px; top: 1740px; }
+.SylvesterStalloneBackground { left: 944px; top: 1396px; }
+.MemoriesBackground { left: 520px; top: 1396px; }
+.BaderBackground { left: 96px; top: 1396px; }
+.MekanikaBackground { left: 944px; top: 1052px; }
+.ElRagolElSharesBackground { left: 520px; top: 1052px; }
+.GatElSahrahBackground { left: 96px; top: 1052px; }
+.SouqAlhalawaBackground { left: 944px; top: 696px; }
+.GahimEmraahBackground { left: 520px; top: 696px; }
+.BaldozarBackgrond { left: 96px; top: 696px; }
+.ElSharesBackground { left: 944px; top: 352px; }
+.QabdetAlhilaliBackground { left: 520px; top: 352px; }
+.AleajuzWAlbaltajyBackground { left: 96px; top: 352px; }
+
+.OlympicVillageMaadi,
+.ElZuhurClub,
+.CairoInternationalStadiumOpenKickboxingChampionship,
+.SylvesterStallone,
+.Memories {
+  width: 400px;
+  height: 91px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Papyrus;
+  font-weight: 400;
+  word-wrap: break-word;
+  text-shadow: 0px 4px 4px rgba(23, 22, 22, 1.00);
+}
+
+.OlympicVillageMaadi   { left: 943px; top: 1949px; font-size: 36px; }
+.ElZuhurClub            { left: 524px; top: 1949px; font-size: 48px; }
+.CairoInternationalStadiumOpenKickboxingChampionship { left: 96px; top: 1949px; font-size: 24px; }
+.SylvesterStallone      { left: 944px; top: 1605px; font-size: 48px; }
+.Memories               { left: 520px; top: 1605px; font-size: 48px; }
+
+.BaderName,
+.MekanikaName,
+.ElRagolElSharesName,
+.GatElSahrahName,
+.SouqAlhalawaName,
+.GahimEmraahName,
+.BaldozarName,
+.ElSharesName,
+.QabdetAlhilaliName,
+.AleajuzWAlbaltajyName {
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.BaderName               { width: 214px; height: 121px; left: 189px; top: 1575px; }
+.MekanikaName           { width: 323px; height: 150px; left: 982px; top: 1202px; }
+.ElRagolElSharesName    { width: 307px; height: 91px; left: 566px; top: 1261px; }
+.GatElSahrahName        { width: 256px; height: 86px; left: 174px; top: 1266px; }
+.SouqAlhalawaName       { width: 298px; height: 91px; left: 995px; top: 905px; }
+.GahimEmraahName        { width: 228px; height: 76px; left: 606px; top: 905px; }
+.BaldozarName           { width: 244px; height: 124px; left: 174px; top: 872px; }
+.ElSharesName           { width: 181px; height: 110px; left: 1053px; top: 530px; }
+.QabdetAlhilaliName     { width: 245px; height: 80px; left: 597px; top: 560px; }
+.AleajuzWAlbaltajyName  { width: 339px; height: 110px; left: 127px; top: 530px; }
+
+.BackgroundGallery,
+.BackgroundHeader {
+  position: absolute;
+}
+
+.BackgroundGallery   { width: 304px; height: 89px; left: 569px; top: 174px; border-radius: 25px; }
+.GalleryText {
+  width: 265px;
+  height: 89px;
+  left: 589px;
+  top: 174px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #1D0909;
+  font-size: 32px;
+  font-family: Papyrus;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.BackgroundHeader {
+  width: 1440px;
+  height: 150px;
+  left: 0;
+  top: 0;
+}
+
+.SocialIconsFacebook,
+.SocialIconsInstagram,
+.SocialIconsYoutube,
+.SocialIconsX {
+  width: 48px;
+  height: 48px;
+}
+
+.Videos,
+.Gallery,
+.Films,
+.Biography,
+.Home,
+.LogoYousefMansour {
+  position: absolute;
+}
+
+.Videos { width: 144px; height: 51px; left: 918px; top: 50px; color: #1E1E1E; font-size: 32px; font-family: Papyrus; font-weight: 400; text-align: center; display: flex; flex-direction: column; justify-content: center; word-wrap: break-word; }
+.Gallery { width: 207px; height: 51px; left: 720px; top: 51px; color: #1E1E1E; font-size: 32px; font-family: Papyrus; font-weight: 400; text-align: center; display: flex; flex-direction: column; justify-content: center; word-wrap: break-word; }
+.Films { width: 144px; height: 51px; left: 576px; top: 51px; color: #1E1E1E; font-size: 32px; font-family: Papyrus; font-weight: 400; text-align: center; display: flex; flex-direction: column; justify-content: center; word-wrap: break-word; }
+.Biography { width: 233px; height: 51px; left: 343px; top: 50px; color: #1E1E1E; font-size: 32px; font-family: Papyrus; font-weight: 400; text-align: center; display: flex; flex-direction: column; justify-content: center; word-wrap: break-word; }
+.Home { width: 144px; height: 51px; left: 212px; top: 50px; color: #1E1E1E; font-size: 32px; font-family: Papyrus; font-weight: 400; text-align: center; display: flex; flex-direction: column; justify-content: center; word-wrap: break-word; }
+.LogoYousefMansour { width: 183px; height: 150px; left: 45px; top: 0px; }

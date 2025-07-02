@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Papyrus, sans-serif;
+  background-color: white;
+}
+
+.Films {
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 3043px;
+  background: white;
+}
+
+.FilmsText {
+  text-align: center;
+  color: #1D0909;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.Date {
+  text-align: center;
+  color: black;
+  font-size: 96px;
+  font-weight: 400;
+}
+
+.OfficialWebsiteYousefMansor,
+.YousefMansoreg {
+  text-align: center;
+  color: #9E7A06;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.SocialIcons,
+.SocialIconsFacebookWhite,
+.SocialIconsInstagramWhite,
+.SocialIconsYoutubeWhite,
+.SocialIconsXWhite,
+.SocialIconsFacebook,
+.SocialIconsInstagram,
+.SocialIconsYoutube,
+.SocialIconsX {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.Videos,
+.Gallery,
+.FilmsMain,
+.Biography,
+.Home {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.FilmsMain,
+.Videos,
+.Gallery,
+.Biography,
+.Home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+div[class*="Background"],
+div[class*="Background"] {
+  background: rgba(101, 94, 35, 0.5);
+  border-radius: 25px;
+}

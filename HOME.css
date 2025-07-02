@@ -1,0 +1,48 @@
+.Home {
+  width: 1440px;
+  height: 2480px;
+  position: relative;
+  background: #1D0909;
+  overflow: hidden;
+}
+
+.BackgroundHomeNo2 {
+  width: 1440px;
+  height: 1618px;
+  left: 0px;
+  top: 862px;
+  position: absolute;
+}
+
+.BackgroundHomeNo1 {
+  width: 1440px;
+  height: 712px;
+  left: 0px;
+  top: 150px;
+  position: absolute;
+}
+
+.HomeText {
+  width: 144px;
+  height: 51px;
+  left: 212px;
+  top: 50px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #1E1E1E;
+  font-size: 32px;
+  font-family: Papyrus;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.LogoYousefMansour {
+  width: 183px;
+  height: 150px;
+  left: 45px;
+  top: 0px;
+  position: absolute;
+}
